@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".PlayerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/now_playing"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/song_cave_image_view"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/song_gif_image_view"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+
+    </FrameLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        tools:text="Song name"
+        android:textColor="@color/white"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:id="@+id/song_title_text_view"/>
+
+    <TextView
+        android:id="@+id/song_subtitle_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        tools:text="Album" />
+
+    <androidx.media3.ui.PlayerView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        app:hide_on_touch="false"
+        app:show_timeout="0"
+        android:id="@+id/player_view"/>
+
+
+
+
+</LinearLayout>
