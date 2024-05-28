@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             binding.section3Title,
             binding.section3RecyclerView
         )
-        setupSection(
+        setupmostlyplayed(
             "mostly_played",
             binding.mostlyPlayedMainLayout,
             binding.mostlyPlayedTitle,
@@ -156,7 +156,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun setupMostlyPlayed(
+    fun setupmostlyplayed(
         id: String,
         mainLayout: RelativeLayout,
         titleView: TextView,
