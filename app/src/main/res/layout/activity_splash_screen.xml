@@ -25,7 +25,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="monospace"
         android:gravity="center"
-        android:text="Welcome to \nMusic Stream"
+        android:text="Welcome to\n Malodify"
         android:textColor="@color/textwhite"
         android:textSize="22sp"
         android:textStyle="bold"

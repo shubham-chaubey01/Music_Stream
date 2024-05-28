@@ -32,7 +32,7 @@
             android:textStyle="bold"
             android:fontFamily="monospace"
             android:paddingTop="8dp"
-            android:text="Explore latest hits only on music stream"/>
+            android:text="Explore latest hits only on Malodify"/>
 
 
     </LinearLayout>
@@ -75,11 +75,6 @@
 
 
 
-
-
-
-
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="60dp"
@@ -101,7 +96,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="Don't have an account?Create one!"
             android:textColor="@color/textwhite"
             android:gravity="center"
             android:id="@+id/goto_signup_btn"/>

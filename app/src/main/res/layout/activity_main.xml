@@ -163,6 +163,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/mostly_played_title"/>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
         </RelativeLayout>
 
         <View
@@ -229,6 +233,7 @@
         android:layout_centerVertical="true"
         android:textColor="@color/white"
         android:textSize="20sp"/>
+
 
 
 

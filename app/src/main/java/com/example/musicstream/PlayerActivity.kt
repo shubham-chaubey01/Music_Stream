@@ -2,8 +2,10 @@ package com.example.musicstream
 
 import android.os.Bundle
 import android.view.View
+import androidx.annotation.OptIn
 import androidx.appcompat.app.AppCompatActivity
 import androidx.media3.common.Player
+import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
 import com.bumptech.glide.Glide
 import com.example.musicstream.databinding.ActivityPlayerBinding
@@ -25,6 +27,7 @@ class PlayerActivity : AppCompatActivity() {
         }
 
 
+    @OptIn(UnstableApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPlayerBinding.inflate(layoutInflater)

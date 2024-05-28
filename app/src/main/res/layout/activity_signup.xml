@@ -32,7 +32,7 @@
             android:textStyle="bold"
             android:fontFamily="monospace"
             android:paddingTop="8dp"
-            android:text="Explore latest hits only on music stream"/>
+            android:text="Explore latest hits only on Malodify"/>
 
 
     </LinearLayout>

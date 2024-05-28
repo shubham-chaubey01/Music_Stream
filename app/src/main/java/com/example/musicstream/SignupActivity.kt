@@ -55,10 +55,11 @@ class SignupActivity : AppCompatActivity() {
                setInProgress(false)
                Toast.makeText(applicationContext,"User created successfully",Toast.LENGTH_SHORT).show()
                finish()
-           }.addOnSuccessListener{
+           }.addOnFailureListener {
                setInProgress(false)
                Toast.makeText(applicationContext,"Create account failed",Toast.LENGTH_SHORT).show()
            }
+
     }
 
 
